@@ -1,0 +1,87 @@
+2022-11-24 10:32:08.134  INFO 13288 --- [main] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.5 on DESKTOP-SQVTEPA with PID 13288 (C:\Users\Mati\eclipse-workspace\demo-1\target\classes started by Mati in C:\Users\Mati\eclipse-workspace\demo-1)
+2022-11-24 10:32:08.146  INFO 13288 --- [main] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 10:32:11.982  INFO 13288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-24 10:32:12.036  INFO 13288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 10:32:12.039  INFO 13288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 10:32:12.404  INFO 13288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 10:32:12.406  INFO 13288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3955 ms
+2022-11-24 10:32:13.703  INFO 13288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 10:32:13.747  INFO 13288 --- [main] com.example.demo.Demo1Application        : Started Demo1Application in 7.43 seconds (JVM running for 10.031)
+2022-11-24 10:35:17.177  INFO 13288 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-24 10:35:17.231  INFO 13288 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-24 10:37:37.150  INFO 7808 --- [main] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.5 on DESKTOP-SQVTEPA with PID 7808 (C:\Users\Mati\eclipse-workspace\demo-1\target\classes started by Mati in C:\Users\Mati\eclipse-workspace\demo-1)
+2022-11-24 10:37:37.160  INFO 7808 --- [main] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 10:37:40.750  INFO 7808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-24 10:37:40.933  INFO 7808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 10:37:40.936  INFO 7808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 10:37:41.667  INFO 7808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 10:37:41.884  INFO 7808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4533 ms
+2022-11-24 10:37:43.875  INFO 7808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 10:37:43.938  INFO 7808 --- [main] com.example.demo.Demo1Application        : Started Demo1Application in 8.41 seconds (JVM running for 13.672)
+2022-11-24 13:13:26.075  INFO 11628 --- [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.5 on DESKTOP-SQVTEPA with PID 11628 (C:\Users\Mati\eclipse-workspace\demo-1\target\classes started by Mati in C:\Users\Mati\eclipse-workspace\demo-1)
+2022-11-24 13:13:26.080  INFO 11628 --- [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 13:13:26.290  INFO 11628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-24 13:13:26.291  INFO 11628 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-24 13:13:29.764  INFO 11628 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-24 13:13:29.805  INFO 11628 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 13:13:29.809  INFO 11628 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 13:13:30.071  INFO 11628 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 13:13:30.073  INFO 11628 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3780 ms
+2022-11-24 13:13:30.827  INFO 11628 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-24 13:13:31.277  INFO 11628 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-24 13:13:31.412  WARN 11628 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-11-24 13:13:31.428  INFO 11628 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-24 13:13:31.486  INFO 11628 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-24 13:13:31.587 ERROR 11628 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-24 13:13:59.089  INFO 7808 --- [RMI TCP Connection(136)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-24 13:13:59.256  INFO 7808 --- [RMI TCP Connection(136)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-24 13:14:19.826  INFO 13308 --- [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.5 on DESKTOP-SQVTEPA with PID 13308 (C:\Users\Mati\eclipse-workspace\demo-1\target\classes started by Mati in C:\Users\Mati\eclipse-workspace\demo-1)
+2022-11-24 13:14:19.831  INFO 13308 --- [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 13:14:20.033  INFO 13308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-24 13:14:20.035  INFO 13308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-24 13:14:23.288  INFO 13308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-24 13:14:23.332  INFO 13308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 13:14:23.336  INFO 13308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 13:14:23.581  INFO 13308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 13:14:23.583  INFO 13308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3547 ms
+2022-11-24 13:14:24.328  INFO 13308 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-24 13:14:24.777  INFO 13308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-24 13:14:24.963  INFO 13308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 13:14:25.005  INFO 13308 --- [restartedMain] com.example.demo.Demo1Application        : Started Demo1Application in 6.69 seconds (JVM running for 9.498)
+2022-11-24 13:14:41.565  INFO 13308 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-24 13:14:41.663  INFO 13308 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-24 13:14:42.185  INFO 13012 --- [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.5 on DESKTOP-SQVTEPA with PID 13012 (C:\Users\Mati\eclipse-workspace\demo-1\target\classes started by Mati in C:\Users\Mati\eclipse-workspace\demo-1)
+2022-11-24 13:14:42.189  INFO 13012 --- [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 13:14:42.400  INFO 13012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-24 13:14:42.401  INFO 13012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-24 13:14:49.794  INFO 5728 --- [restartedMain] com.example.demo.Demo1Application        : Starting Demo1Application using Java 17.0.5 on DESKTOP-SQVTEPA with PID 5728 (C:\Users\Mati\eclipse-workspace\demo-1\target\classes started by Mati in C:\Users\Mati\eclipse-workspace\demo-1)
+2022-11-24 13:14:49.815  INFO 5728 --- [restartedMain] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 13:14:50.162  INFO 5728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-24 13:14:50.166  INFO 5728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-24 13:14:53.496  INFO 5728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-24 13:14:53.537  INFO 5728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 13:14:53.540  INFO 5728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 13:14:53.783  INFO 5728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 13:14:53.784  INFO 5728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3616 ms
+2022-11-24 13:14:54.514  INFO 5728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-11-24 13:14:55.009  INFO 5728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-24 13:14:55.150  INFO 5728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 13:14:55.199  INFO 5728 --- [restartedMain] com.example.demo.Demo1Application        : Started Demo1Application in 7.208 seconds (JVM running for 10.382)
+2022-11-24 13:15:16.555  INFO 5728 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-24 13:15:16.556  INFO 5728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-24 13:15:16.560  INFO 5728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
